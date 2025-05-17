@@ -8,7 +8,7 @@ Ce mémo regroupe les **commandes Unix de base** valides à la fois sur **Linux*
 
 ```bash
 pwd                          # Affiche le chemin courant
-ls -l / -a                   # Liste les fichiers avec détails / fichiers cachés
+ls -la                       # Liste les fichiers avec détails / fichiers cachés
 cd /tmp                      # Change de répertoire
 mkdir dossier                # Crée un dossier
 touch fichier.txt            # Crée un fichier vide
