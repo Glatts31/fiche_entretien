@@ -5,14 +5,13 @@ Ce projet a pour but de centraliser des **mémos, fiches pratiques et commandes 
 
 ## Contenu
 
-* **Commandes** : Commandes Unix de base
+* **[Commandes](base/commandes_unix.md)** : Commandes Unix de base
 * **Gestionnaire de paquets** : Gestion des paquets via les différentes distributions Linux + FreeBSD
-* **Services** : Gestion des services
 * **Reseau** : Configuration réseau (IP, DNS, outils de diagnostic comme ping, dig, etc.)
 * **Stockage** : Gestion des disques (montage, fstab, ZFS, partitions…)
 * **Services** : Gestion des services et démons système (systemd, rc.d, supervision de services)
 * **Conteneurs** : Conteneurisation avec Docker (Linux) et Jail (BSD)
-* **Kubernetes** : Administration de clusters Kubernetes
+* **[Kubernetes](kubernetes/commandes.md)** : Administration de clusters Kubernetes
 * **Virtualisation** : Technologies de virtualisation (QEMU, bhyve, VirtualBox, etc.)
 * **Automatisation** : Outils d’automatisation comme Ansible et Puppet
 * **CI-CD** : Intégration et déploiement continu avec GitHub Actions et GitLab CI
