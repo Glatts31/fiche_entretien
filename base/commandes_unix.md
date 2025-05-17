@@ -46,15 +46,43 @@ du -sh /var/log              # Taille du dossier
 top                          # Processus en temps réel
 ps aux | grep <processus>    # Recherche de processus
 kill <PID>                   # Termine un processus
+pkill nom                    # Tuer un processus par nom
+pgrep nom                    # Affiche les PID d'un processus
 ```
 
 ---
 
-## Droits et permissions
+## Utilisateurs, Droits et permissions
 
 ```bash
+whoami                       # Affiche l'utilisateur courant
+id                           # UID, GID et groupes
+groups                       # Liste des groupes de l'utilisateur
+adduser nom                  # Ajoute un utilisateur (BSD)
+useradd nom                  # Ajoute un utilisateur (Linux)
+passwd nom                   # Définit ou change le mot de passe
+usermod -aG groupe nom       # Ajoute un utilisateur à un groupe (Linux)
+pw usermod nom -G groupe     # Ajoute un utilisateur à un groupe (FreeBSD)
+deluser nom                  # Supprime un utilisateur (Linux)
+rmuser nom                   # Supprime un utilisateur (FreeBSD)
 chmod 755 script.sh          # Modifie les permissions
 chown user:group fichier     # Change propriétaire/groupe
+```
+
+
+⚠️ **Attention :** Particularités BSD
+- Utilisation de `pw` pour la gestion des utilisateurs (ex : `pw useradd`, `pw groupadd`)
+- Fichier `/etc/rc.conf` pour gérer les services lancés au boot (vs systemd sur Linux)
+- Le fichier sudoers se trouve aussi dans `/usr/local/etc/sudoers` 
+
+---
+
+## Sudo & Élévation de privilèges
+
+```bash
+sudo commande              # Exécute une commande en root
+sudo su -                  # Passe en superutilisateur (`sudo -i `)
+visudo                     # Édite le fichier sudoers (via EDITOR)
 ```
 
 ---
