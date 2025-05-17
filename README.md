@@ -5,8 +5,8 @@ Ce projet a pour but de centraliser des **mémos, fiches pratiques et commandes 
 
 ## Contenu
 
-* **Commandes** : Commandes Unix fondamentales
-* **Utilisateurs-processus** : Gestion des utilisateurs, des permissions et des processus
+* **Commandes** : Commandes Unix de base
+* **Services** : Gestion des services
 * **Reseau** : Configuration réseau (IP, DNS, outils de diagnostic comme ping, dig, etc.)
 * **Stockage** : Gestion des disques (montage, fstab, ZFS, partitions…)
 * **Services** : Gestion des services et démons système (systemd, rc.d, supervision de services)
