@@ -1,5 +1,5 @@
 
-# 🖥️ Virtualisation & Infrastructures Hyperconvergées – Fiche Synthèse
+# Virtualisation & Infrastructures Hyperconvergées – Fiche Synthèse
 
 Cette fiche synthétise les **concepts clés de la virtualisation** et les différences entre plusieurs solutions courantes : **Proxmox**, **ESXi**, **oVirt**, **Nutanix**, ainsi que des notions liées à l'**hyperconvergence** et aux **CDN**.
 
