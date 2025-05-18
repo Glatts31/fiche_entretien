@@ -12,7 +12,7 @@ Ce projet a pour but de centraliser des **mémos, fiches pratiques et commandes 
 * **[Services](service/commandes.md)** : Gestion des services et démons système (systemd, rc.d, supervision de services)
 * **[Conteneurs](container/container_README.md)** : Conteneurisation avec [Docker](container/docker.md) (Linux) et [Jail](container/jail.md) (BSD)
 * **[Kubernetes](kubernetes/commandes.md)** : Administration de clusters Kubernetes
-* **Virtualisation** : Technologies de virtualisation (QEMU, bhyve, VirtualBox, etc.)
+* **[Virtualisation](virtualisation/informations.md)** : Technologies de virtualisation
 * **Automatisation** : Outils d’automatisation comme Ansible et Puppet
 * **CI-CD** : Intégration et déploiement continu avec GitHub Actions et GitLab CI
 
