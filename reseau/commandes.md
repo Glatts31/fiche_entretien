@@ -1,4 +1,3 @@
-
 # Réseau – Configuration & Diagnostic
 
 Cette fiche regroupe les commandes de base pour configurer, diagnostiquer et surveiller le réseau sur **Linux** et **FreeBSD**.
