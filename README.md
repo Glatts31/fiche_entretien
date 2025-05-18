@@ -7,7 +7,7 @@ Ce projet a pour but de centraliser des **mémos, fiches pratiques et commandes 
 
 * **[Commandes](base/commandes_unix.md)** : Commandes Unix de base
 * **[Gestionnaire de paquets](package/package_README.md)** : Gestion des paquets via les différentes distributions [Linux](package/linux.md) + [FreeBSD](package/freebsd.md)
-* **Réseau** : Configuration réseau (IP, DNS, outils de diagnostic comme ping, dig, etc.)
+* **[Réseau](reseau/commandes.md)** : Configuration réseau (IP, DNS, outils de diagnostic comme ping, dig, etc.)
 * **[Stockage](stockage/commandes.md)** : Gestion des disques (montage, fstab, ZFS, partitions…)
 * **Services** : Gestion des services et démons système (systemd, rc.d, supervision de services)
 * **[Conteneurs](container/container_README.md)** : Conteneurisation avec [Docker](container/docker.md) (Linux) et [Jail](container/jail.md) (BSD)
